@@ -1,0 +1,17 @@
+{
+  "name": "internet-speed-test",
+  "version": "1.0.0",
+  "description": "Консольный замер скорости скачивания: 10 последовательных запросов к указанному URL",
+  "type": "module",
+  "bin": {
+    "speed-test": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
